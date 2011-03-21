@@ -12,7 +12,7 @@
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <slf4j.version>1.5.10</slf4j.version>
       <seam.version>3.0.0.b09</seam.version>
-      <richfaces.version>4.0.0.20110227-CR1</richfaces.version>
+      <richfaces.version>4.0.0.Final</richfaces.version>
    </properties>
 
    <repositories>
@@ -88,6 +88,10 @@
       <dependency>
          <groupId>org.richfaces.ui</groupId>
          <artifactId>richfaces-components-ui</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>org.richfaces.core</groupId>
+         <artifactId>richfaces-core-impl</artifactId>
       </dependency>
       
 
